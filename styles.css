@@ -1,0 +1,48 @@
+body {
+    background: #131b21;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  svg#flower-frame {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  #Footer_group_1_,
+  [id^="PinkFlowerGroup"],
+  [id^="BaseGroup"] path,
+  [id^="LeafGroup"] path,
+  path[id^="Stroke"],
+  g[id^="BudGroup"] g[id^="BudGroup"] g[id^="Bud"],
+  #Bud8_1_,
+  #Bud10_1_,
+  #Bud23_1_,
+  #Bud26_1_,
+  [id^="Dots"],
+  [id^="Flourish"] {
+    visibility: hidden;
+  }
+  .message{
+    position: absolute;
+      z-index: 10;
+      color: rgb(228, 10, 192);
+      font-size: 20px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .message2{
+    position: absolute;
+      z-index: 10;
+      color: rgb(255, 0, 0);
+      font-size: 10px;
+      text-align: center;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
